@@ -1,2 +1,9 @@
 language: node_js
 node_js: node;
+deploy:
+  provider: heroku
+  api_key:
+    secure: U+o2oC42gyYiA1ydecQWNQISWiYgR270ChqAqfBXMUW3MliUvWsT1KoHXie6Rv+o+0RrVvXhlHcTwC0FRtU66ZLzyhVKEW/25wDYJ0Qi32QJY/2pQMuTswhj6zbEtp+KxngeQkA9ehLkNunLwtvXJnWQW9gXCDmGSfqN6/qKmf4dcYX59iB1p2brMerTGPemypKRcBAC5FMFGm5inmFLSb651ntd/bclckYy0oKUszfJtCnYnSf9fwDf83KvYLelWm05uYCeAjln7CaMYrysRSYv/tteQOCg9gdQdfdoaFh9LjnJNjKsFWE4yh9xsIa1yv124D+pbv9IX9zivfF2nzzuo8QF686c3huo+0DNZB/2S6KFUk0nv26RMNYA+wLCTHRAMmGgfq6zK05FrhBntnD5eOcTSC07knkevg+y9OT6Y0UiHOPr8LqniA/K86DLS/fob4fgCNsN2g39cUdhxQJI6QIMJkLrD+NPqdQrQNJxV1nQIdqk6R+Qgd5q1wH/IALATDDM93COlaQtNI1/AzD/g4QLZOdUI5d+JqE4RnAfOZQ0bzGGpdF3SUBX6AmuWvxsyWASoWEzV+qZCXHS1yiG9Qkcva+lMslveMsi85VdUhQdVKEv36jpbzNIUrFR3oTpjwkoJotBVjdeK4NSo3G2TI7iIqko2gxpqHSqxUo=
+  app: mighty-spire-97041
+  on:
+    repo: sesham18/node-shopping-list-integration-tests-2
